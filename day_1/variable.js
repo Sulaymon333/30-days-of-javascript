@@ -2,6 +2,6 @@
 // string, boolean, undefined and null data types
 let name = 'Sulaymon';
 let isCool = true;
-let age;
+let city;
 let info = null;
-console.log(name, isCool, age, info);
+console.log(name, isCool, city, info);

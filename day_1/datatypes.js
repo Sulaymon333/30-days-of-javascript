@@ -1,8 +1,8 @@
 // Question 5
-let name = 'Sulaymon';
-let isCool = true;
-let city;
-let info = null;
+let name2 = 'Sulaymon';
+let isCool2 = true;
+let city2;
+let info2 = null;
 console.log(typeof name, typeof isCool, typeof city, typeof info);
 
 // Question 6
