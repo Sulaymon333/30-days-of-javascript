@@ -1,7 +1,7 @@
 // Question 4
 // string, boolean, undefined and null data types
-let name = 'Sulaymon';
-let isCool = true;
-let city;
-let info = null;
+const name = 'Sulaymon';
+const isCool = true;
+const city;
+const info = null;
 console.log(name, isCool, city, info);
