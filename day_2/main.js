@@ -148,3 +148,49 @@ console.log(`There is no exercise better for the heart than reaching down and li
 // Question 32
 console.log(`"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
 `);
+
+// Question 33
+const txt1 = 'python',
+    txt2 = 'jargon';
+console.log(txt1.includes('on'), txt2.includes('on'));
+
+// Question 34
+const string1 = 'I hope this course is not full of jargon';
+console.log(string1.includes('jargon'));
+
+// RANDOM NUMBER GENERATOR
+// Math.random() *  (max - min) + min); // min (inclusive), max (exclusive)
+
+// min (inclusive), max (inclusive)
+const generateRandomNumber = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+// Question 35
+console.log(generateRandomNumber(0, 100));
+
+// Question 36
+console.log(generateRandomNumber(50, 100));
+
+// Question 37
+console.log(generateRandomNumber(0, 255));
+
+// Question 38
+const string2 = 'JavaScript';
+console.log(string2.charAt(generateRandomNumber(0, string2.length - 1)));
+
+// Question 39
+console.log(1, 1, 1, 1, 1);
+console.log(2, 1, 2, 4, 8);
+console.log(3, 1, 3, 9, 27);
+console.log(4, 1, 4, 16, 64);
+console.log(5, 1, 5, 25, 125);
+
+// Question 40
+console.log('10' === 10);
+
+// Question 41
+console.log(parseInt('9.8') == 10);
+console.log(Math.round(9.8) == 10);
