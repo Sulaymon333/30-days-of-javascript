@@ -105,7 +105,7 @@ console.log(`I am ${myAge - yourAge} older than you.`);
 
 // d.
 const ageYear = window.prompt('What year where you born?');
-2020 - ageYear > 18
+2020 - ageYear >= 18
     ? console.log(`You are ${2020 - ageYear}. You are old enough to drive`)
     : console.log(`You are ${2020 - ageYear}. You will be allowed to drive after ${18 - (2020 - ageYear)} years.`);
 
@@ -140,4 +140,3 @@ console.log(year2, month, dateToday, dayToday, hour, minute, seconds, now, now2)
 console.log(dateFormat1);
 console.log(dateFormat2);
 console.log(dateFormat3);
-console.log(Date.now());
